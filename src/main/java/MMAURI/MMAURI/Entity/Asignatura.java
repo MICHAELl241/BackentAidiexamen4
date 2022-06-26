@@ -66,4 +66,14 @@ public class Asignatura  {
 
     public Asignatura() {
     }
+
+    @Override
+    public String toString() {
+        return "Asignatura{" +
+                "idasignatura=" + idasignatura +
+                ", denominacion='" + denominacion + '\'' +
+                ", sigla='" + sigla + '\'' +
+                ", credito='" + credito + '\'' +
+                '}';
+    }
 }
